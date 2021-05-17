@@ -1,4 +1,3 @@
-
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 .titulo{
@@ -39,14 +38,26 @@ li{
 	background: transparent;
 	height:40px;
 }
-
-li a:hover{
-	color:white;
-	box-shadow:10px 10px 10px #000;
+.buscador{
+	display:inline-flex !important;
+	background-color:#0b2844;
+	border-radius:7px;
 }
-li a i:hover{
+.escribir2{
+	width:200px;
+	height:50px;
+	color:gray;
+	border-radius:7px;
+}
+.boton{
+	height:50px;
+	background-color:#0073e1;
+	border-color:#0073e1;
 	color:white;
-	box-shadow:10px 10px 10px #000;
+	border-radius:7px;
+}
+.textobuscador{
+	margin:10px;
 }
 
 
@@ -95,7 +106,6 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.5;
   z-index: 1;
 }
 
@@ -133,3 +143,6 @@ header .overlay {
 .pb-row {
         margin-bottom: 10px;
 }
+
+
+
